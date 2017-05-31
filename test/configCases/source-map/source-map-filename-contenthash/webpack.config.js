@@ -6,7 +6,7 @@ module.exports = {
 	},
 	devtool: "source-map",
 	output: {
-		sourceMapFilename: "[file].map?[hash]",
+		sourceMapFilename: "[file].map?[contenthash]",
 	},
 	plugins: [
 		new webpack.optimize.UglifyJsPlugin({
